@@ -6,3 +6,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 100vw auto; /* 1fr 1 part of the whole as long as the content inside the row or column cell is flexible */
+}
+p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+#copyTitle {
+    color: cadetblue;
+    font-size: 2rem;
+}
